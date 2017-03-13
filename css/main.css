@@ -1,0 +1,44 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+	background: #23d6cf url(../img/bg.jpg) no-repeat center center;
+	background-size: cover;
+	background-blend-mode: overlay;
+	color: #fff;
+	font-family: 'open sans';
+	display: flex;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+	font-size: 20vw;
+	font-weight: 800;
+	font-style: italic;
+	margin: 0;
+}
+
+p {
+	font-size: 2rem;
+	line-height: 2rem;
+	margin: 0;
+	text-align: center;
+}
+
+a {
+	color: #fff;
+	padding: 0 0.4rem;
+}
+
+a:hover {
+	background: #fff;
+	color: #23d6cf;
+	text-decoration: none;
+	border-radius: 3px;
+}
